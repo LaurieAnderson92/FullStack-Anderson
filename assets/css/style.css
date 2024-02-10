@@ -28,12 +28,12 @@ nav{
 /* Contact menu */
 #contact{
     background-color: yellow;
-    width: 100%
+    
 }
 
 #contact-list{
     text-align: center;
-    padding: 1.5rem;
+    padding: 0.25 0.1rem;
     display:flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -42,7 +42,6 @@ nav{
 #contact-list i{
     text-align: center;
     font-size: 150%;
-    padding: 5%;
     color: #3a3a3a
 }
 
@@ -50,5 +49,17 @@ nav{
 @media screen and (max-width: 768px) {
     .hide-on-mobile{
         display: none;
+    }
+
+    #contact{
+        width: 100%;
+    }
+        
+    header{
+        width: 100%;
+    }
+        
+    nav{
+        width: 100%;
     }
 }
