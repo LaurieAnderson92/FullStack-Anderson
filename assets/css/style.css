@@ -1,3 +1,16 @@
+/* Site wide styles */
+.hidden{
+    display: none;
+}
+
+h1, h2 {
+    font:serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* Troubleshooting contast colours */
 body{
 background-color: green;
 }
@@ -8,4 +21,33 @@ header{
 
 nav{
     background-color: blueviolet;
+}
+/* End of troubleshooting Colours */
+
+
+/* Contact menu */
+#contact{
+    background-color: yellow;
+    width: 
+}
+
+#contact-list{
+    text-align: center;
+    padding: 105rem;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#contact-list i{
+    font-size: 150%;
+    padding: 5%;
+    color: #3a3a3a
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .hide-on-mobile{
+        display: none;
+    }
 }
