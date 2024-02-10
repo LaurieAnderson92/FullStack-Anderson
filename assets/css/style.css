@@ -47,6 +47,7 @@ nav{
 }
 
 /* Media queries */
+/* Styles for mobile only */
 @media screen and (max-width: 768px) {
     .hide-on-mobile{
         display: none;
@@ -75,4 +76,10 @@ nav{
         position: fixed;
         top: 0px;
     }
+}
+/* Styles for PC*/
+@media screen and (min-width: 769px) {
+    .hide-on-pc{
+        display: none;
+}
 }
