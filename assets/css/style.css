@@ -28,18 +28,19 @@ nav{
 /* Contact menu */
 #contact{
     background-color: yellow;
-    width: 
+    width: 100%
 }
 
 #contact-list{
     text-align: center;
-    padding: 105rem;
+    padding: 1.5rem;
     display:flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
 #contact-list i{
+    text-align: center;
     font-size: 150%;
     padding: 5%;
     color: #3a3a3a
