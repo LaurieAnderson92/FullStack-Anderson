@@ -1,4 +1,12 @@
 /* Site wide styles */
+
+/* Wildcard selector, overrides browser settings */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
 .hidden{
     display: none;
 }
@@ -40,6 +48,7 @@ nav{
     margin: 0;
     font-size: 150%
 }
+/* Nav bar */
 
 
 /* Contact menu */
@@ -66,7 +75,21 @@ nav{
     .hide-on-mobile{
         display: none;
     }
+        
+    header{
+        width: 100%;
+    }
+        
+    nav{
+        width: 130px;
+        position: fixed;
+        
+    }
 
+    nav > ul{
+        padding-inline-start: 10px;
+        font-size: 1.5em;
+    }
     /* Contact as footer on mobile */
     #contact{
         width: 100%;
@@ -74,23 +97,10 @@ nav{
         bottom: 0px;
     }
     #contact > ul{
-        padding-inline-start: 0px;
-    
-    }
-        
-    header{
-        width: 100%;
-    }
-        
-    nav{
-        width: 100%;
-    }
-    /* nav bar as header on mobile */
-    #nav{
-        position: fixed;
-        top: 0px;
+        padding-inline-start: 0px;    
     }
 }
+
 /* Styles for PC*/
 @media screen and (min-width: 769px) {
     .hide-on-pc{
