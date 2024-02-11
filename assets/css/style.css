@@ -12,6 +12,10 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
+ul > li {
+    list-style-type: none;
+}
+
 
 /* Troubleshooting contast colours */
 body{
@@ -26,6 +30,16 @@ nav{
     background-color: blueviolet;
 }
 /* End of troubleshooting Colours */
+
+/* Header */
+#header-list{
+    display:flex;
+    position: sticky;
+    padding: 0.25em 0.4em;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 150%
+}
 
 
 /* Contact menu */
