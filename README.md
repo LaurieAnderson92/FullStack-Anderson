@@ -39,3 +39,9 @@ For the comprehensive collection of icons used throughout the website.
 
 GitHub Pages: https://pages.github.com/
 For hosting the website for free.
+
+CI Love running project: https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu
+For inspiring and providing the CSS method of making a dropdown menu
+
+Pexels: https://www.pexels.com/photo/data-codes-through-eyeglasses-577585/
+A photo uploaded by user Kevin Ku to the free imaging hosting website pexels
