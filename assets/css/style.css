@@ -10,10 +10,6 @@
 .hidden{
     display: none;
 }
-body{
-    margin: 0;
-}
-
 h1, h2 {
     font:serif;
     text-transform: uppercase;
@@ -35,26 +31,58 @@ header{
 }
 
 nav{
-    background-color: blueviolet;
+    background-color: yellow;
+}
+#contact{
+    background-color: yellow;
 }
 /* End of troubleshooting Colours */
 
 /* Header */
-#header-list{
-    display:flex;
+#header{
+    display: flex;
+    align-items: baseline;
     position: sticky;
+    font-size: 2em;
+    display:flex;
     padding: 0.25em 0.4em;
     justify-content: space-between;
     margin: 0;
-    font-size: 150%
+    height: 1.5em
 }
-/* Nav bar */
+/* Header checkbox Menu dropdown - inspired by LoveRunning */
+#nav-toggle:checked~nav{
+    display: block;
+}
 
+#nav-toggle{
+    display: none; 
+ }
+
+ /* Darkmode */
+ /* Header checkbox for Dark mode */
+#darkmode{
+    display: none;
+ }
+
+/* Nav bar */
+nav{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: none;
+    top: 1.5em;
+    padding: 0 1rem;
+}
+
+nav > ul{
+    padding-inline-start: 10px;
+} 
 
 /* Contact menu */
 #contact{
-    background-color: yellow;
-    
+    font-size: 2em;
+    height: 1.5em;
 }
 
 #contact-list{
@@ -62,11 +90,8 @@ nav{
     display:flex;
     justify-content: space-evenly;
     list-style-type: none;
-}
-
-#contact-list i{
-    text-align: center;
-    font-size: 150%;
+    padding: 0.25em 0.4em;
+    align-content: center;
 }
 
 /* Media queries */
@@ -75,21 +100,7 @@ nav{
     .hide-on-mobile{
         display: none;
     }
-        
-    header{
-        width: 100%;
-    }
-        
-    nav{
-        width: 130px;
-        position: fixed;
-        
-    }
-
-    nav > ul{
-        padding-inline-start: 10px;
-        font-size: 1.5em;
-    }
+    
     /* Contact as footer on mobile */
     #contact{
         width: 100%;

@@ -9,12 +9,13 @@
 <body>
     <!-- Header -->
     <header id="header">
-        <ul id="header-list">
-        <li> <label for="nav-toggle" id="header-list-navtoggle" class="hide-on-pc"><i class="fa-solid fa-bars" aria-hidden="true"></i></label></li>
-        <li id="header-list-downloadcv" class="hide-on-pc"><a href="assets/downloads/Laurie Anderson CV.pdf"></a>Download CV</li>
-        <li> <label for="nav-toggle" id="header-list-navtoggle" class="hide-on-pc"><i class="fa-regular fa-moon"></i></label></li>
-        </ul>
-    </header>
+        <a href="assets/downloads/Laurie Anderson CV.pdf"> Download CV</a>
+
+        <input type="checkbox" id="darkmode" name="darkmode" />
+        <label for="darkmode" id="header-list-darkmode" class="hide-on-pc"><i class="fa-regular fa-moon"></i></label>
+        
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+        <label for="nav-toggle" id="header-list-navtoggle" class="hide-on-pc"><i class="fa-solid fa-bars" aria-hidden="true"></i></label>
        <!-- Navigation bar -->
     <nav>
         <ul>
@@ -27,6 +28,7 @@
             <li class="hide-on-mobile"><input type="button" value="Darkmode"></li>
         </ul>
     </nav>
+    </header>
     <main>
            <section id="title">
             <div id="title-picture"></div>
