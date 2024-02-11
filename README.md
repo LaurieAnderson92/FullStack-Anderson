@@ -1,39 +1,41 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# FullStack Anderson
 
 Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This repository contains the codebase for my personal CV website. This website serves as an online resume showcasing my skills, experience, and projects. It's designed to provide visitors with a comprehensive overview of my professional background and expertise as well as highlighting a interest in making websites accessible.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Technologies Used
+**HTML:** Used for structuring the content of the web pages.
+**CSS:** Used for styling the web pages and making them visually appealing.
+**JavaScript:** Used for interactivity and dynamic content.
+**Git:** Version control system for tracking changes and collaborating with others.
+**GitHub Pages:** Hosting platform for deploying the website.
 
-## Codeanywhere Reminders
+## Wireframes
+![Index mobile](https://github.com/LaurieAnderson92/FullStack-Anderson/assets/155463443/0f70177f-5218-404e-a4d1-dc176310f497)
+![index pc](https://github.com/LaurieAnderson92/FullStack-Anderson/assets/155463443/c3ae0d10-76c9-49b4-ae5c-791b63da4271)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Structure
+index.html: The landing page of the website, containing an overview of my profile and links to different sections in the header
 
-`python3 -m http.server`
+assets/: Directory containing CSS stylesheets, JavaScript files, images, and other resources used in the website.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Setup and Deployment
+Git Hub Pages
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Testing:
+Test the website locally by opening the HTML files in a web browser to ensure everything displays correctly.
 
-`http_server`
+## Deployment:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Bugs/Issues:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Acknowledgments
+Google Fonts: https://fonts.google.com/
+Currently haven't choses a font yet, But i plan to once I build less and design more
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Font Awesome: https://fontawesome.com/
+For the comprehensive collection of icons used throughout the website.
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+GitHub Pages: https://pages.github.com/
+For hosting the website for free.
