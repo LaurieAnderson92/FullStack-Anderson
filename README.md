@@ -30,6 +30,8 @@ Test the website locally by opening the HTML files in a web browser to ensure ev
 
 ## Bugs/Issues:
 
+Bug: The Title box displays over the nav-toggle window
+
 ## Acknowledgments
 Google Fonts: https://fonts.google.com/
 Currently haven't choses a font yet, But i plan to once I build less and design more
