@@ -105,7 +105,7 @@ nav > ul{
     max-width: 300px;
     height: 15%;
     min-height: 175px;
-    left: 2%;
+    justify-self: center;
     padding: 1.5em;
     top: 10%;
     position: absolute;
@@ -140,6 +140,8 @@ nav > ul{
 #title-heading{
     color: white;
     align-self: center;
+    position: absolute;
+    right: 2%;
     background-color: rgba(31, 38, 45, 0.7);
     padding: 15px;
 }
@@ -186,6 +188,10 @@ nav > ul{
     #header{
         height: 0px;
         background-color: #1F262D
+    }
+    #title-picture{
+        left: 2%;
+        top: 35%;
     }
     #contact{
         width: 50%;

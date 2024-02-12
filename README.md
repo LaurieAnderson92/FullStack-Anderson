@@ -47,7 +47,10 @@ Fix: deployed a Z Axis and moved nav toggle window to be inline with convention
 Bug2: The title-picture is displaying above the title-box
 Fix: Used flex box and absolute positioning
 
-Bug3: Title-picture seems to be cut off, not a perfect circle
+Bug3: title-picture seems to be cut off, not a perfect circle
+
+Bug4: title-picture was being overlapped by conact bar on large screens
+Fix: moved title picture to left and into title more to appear more like a profile
 
 
 ## Acknowledgments
