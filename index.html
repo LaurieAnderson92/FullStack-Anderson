@@ -10,22 +10,7 @@
     <!-- Header -->
     <header id="header" class="hide-on-pc">
         <input type="checkbox" id="darkmode" name="darkmode" />
-        <label for="darkmode" id="header-list-darkmode" class="hide-on-pc"><i class="fa-regular fa-moon"></i></label>
-        
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" id="header-list-navtoggle" class="hide-on-pc"><i class="fa-solid fa-bars" aria-hidden="true"></i></label>
-       <!-- Navigation bar -->
-        <nav>
-            <ul>
-                    <li><a href="index.html"></a>About</li>
-                    <li><a href=""></a>Projects</li>
-                    <li><a href=""></a>Experience</li>
-                    <li><a href=""></a>Hobbies</li>
-                    <li><a href=""></a>References</li>
-                    <li class="hide-on-mobile"><a href="assets/downloads/Laurie Anderson CV.pdf"></a>Download CV</li>
-                    <li class="hide-on-mobile"><input type="button" value="Darkmode"></li>
-            </ul>
-        </nav>  
+        <label for="darkmode" id="header-darkmode" class="hide-on-pc"><i class="fa-regular fa-moon"></i></label>
     </header>
     <main>
         <!-- Title section -->
@@ -49,8 +34,8 @@
                     
         </section>
     <!-- How to contact me -->
-        <section id="contact">
-            <div id="contact-space">
+        <section id="menu">
+            <div id="contact">
                 <ul id="contact-list">
                     <li><a href="LaurieAnderson92@hotmail.co.uk"><i class="fa-regular fa-envelope"></i><p class="hide-on-mobile"></p></a></li>
                     <li><a href="https://www.github.com/LaurieAnderson92"><i class="fa-brands fa-github"></i> <p class="hide-on-mobile"></p></a></li>
@@ -58,8 +43,17 @@
                     <li><a href=""><i class="fa-solid fa-phone"></i><p class="hide-on-mobile"></p></a></li>
                 </ul>
             </div>
-            <div id="contact-dz"></div>
-        </section>
+            <div id="menu-darkmode">
+                <label for="darkmode" id="header-list-darkmode" class="hide-on-mobile"><i class="fa-regular fa-moon"></i><i class="fa-regular fa-sun"></i></label>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"></a><p>About</p></li>
+                    <li><a href=""></a>Experience</li>
+                    <li><a href=""></a>References</li>
+                </ul>
+            </nav>
+        </section>  
     </main>
     <!-- Font awesome kit -->
     <script src="https://kit.fontawesome.com/38fef1e39a.js" crossorigin="anonymous"></script>
