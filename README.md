@@ -30,7 +30,9 @@ Test the website locally by opening the HTML files in a web browser to ensure ev
 
 ## Bugs/Issues:
 
-Bug: The Title box displays over the nav-toggle window
+Bug1: The Title box displays over the nav-toggle window
+
+Bug2: The title-picture is displaying above the title-box
 
 ## Acknowledgments
 Google Fonts: https://fonts.google.com/
