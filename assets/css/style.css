@@ -23,6 +23,9 @@ hr {
 ul > li {
     list-style-type: none;
 }
+body{
+    background-color: #B3C1CD;
+}
 
 
 /* Troubleshooting contast colours */
@@ -145,6 +148,11 @@ nav > ul{
 #contact{
     font-size: 2em;
     height: 1.5em;
+    background-color: #B6C7D4;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: 0 -2px 2px 0px #5A88A8;
 }
 
 #contact-list{
@@ -156,6 +164,10 @@ nav > ul{
     align-content: center;
 }
 
+#contact > ul{
+    padding-inline-start: 0px;    
+}
+
 /* Media queries */
 /* Styles for mobile only */
 @media screen and (max-width: 768px) {
@@ -164,16 +176,6 @@ nav > ul{
     }
 
     /* Contact as footer on mobile */
-    #contact{
-        background-color: #B6C7D4;
-        width: 100%;
-        position: fixed;
-        bottom: 0px;
-        box-shadow: 0px 2px 0px 0px #5A88A8;
-    }
-    #contact > ul{
-        padding-inline-start: 0px;    
-    }
 }
 
 /* Styles for PC*/
@@ -185,6 +187,20 @@ nav > ul{
         height: 0px;
         background-color: #1F262D
     }
+    #contact{
+        width: 30%;
+        max-width: 300px;
+        height: 300px;
+        top: -18px;
+        position: relative;
+        box-shadow: 0 2px 2px 0px #5A88A8;
+    }
+    #contact-list{
+        flex-direction: column;
+        text-wrap: wrap;
+        font-size: 1.5rem;
+    }
+
 }
 
 /* Styles for laptops or bigger */
