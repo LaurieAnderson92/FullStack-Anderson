@@ -27,13 +27,8 @@ ul > li {
 
 /* Troubleshooting contast colours */
 
-header{
-    background-color: aqua;
-}
 
-nav{
-    background-color: yellow;
-}
+
 #contact{
     background-color: yellow;
 }
@@ -41,14 +36,19 @@ nav{
 
 /* Header */
 #header{
+    background-color: #B6C7D4;
+    padding: 0.25em 0.4em;
+    border-bottom: 3px;
+    box-shadow: 0 2px 0px 0px #5A88A8;
+    margin: 0;
+
     display: flex;
     align-items: baseline;
     position: sticky;
     font-size: 2em;
-    display:flex;
-    padding: 0.25em 0.4em;
+    
     justify-content: space-between;
-    margin: 0;
+
     height: 1.5em
 }
 /* Header checkbox Menu dropdown - inspired by LoveRunning */
@@ -68,6 +68,8 @@ nav{
 
 /* Nav bar */
 nav{
+    background-color: #B6C7D4;
+    box-shadow: 0 2px 2px 0px #5A88A8;
     width: 25vw;
     position: absolute;
     right: 0px;
@@ -99,13 +101,14 @@ nav > ul{
     width: 70%;
     max-width: 300px;
     height: 15%;
+    min-height: 175px;
     left: 2%;
     padding: 1.5em;
     top: 10%;
     position: absolute;
     border-style: solid;
     border: 15px;
-    border-color: rgba( 100, 100, 100, 0.6);
+    box-shadow: 3px rgba( 100, 100, 100, 0.6);
 }
 
 #title-box-link{
@@ -114,7 +117,7 @@ nav > ul{
     justify-content: center;
     padding: 10px;
     border: 4px;
-    border-style: solid;
+    border-style: outset;
     border-color: cadetblue;
 }
 
@@ -129,7 +132,13 @@ nav > ul{
     max-width: 300px;
     height: 40vw;
     max-height: 300px;
+}
 
+#title-heading{
+    color: white;
+    align-self: center;
+    background-color: rgba(31, 38, 45, 0.7);
+    padding: 15px;
 }
 
 /* Contact menu */
@@ -156,9 +165,11 @@ nav > ul{
 
     /* Contact as footer on mobile */
     #contact{
+        background-color: #B6C7D4;
         width: 100%;
         position: fixed;
         bottom: 0px;
+        box-shadow: 0px 2px 0px 0px #5A88A8;
     }
     #contact > ul{
         padding-inline-start: 0px;    
@@ -170,4 +181,13 @@ nav > ul{
     .hide-on-pc{
         display: none;
 }
+    #header{
+        height: 0px;
+        background-color: #1F262D
+    }
+}
+
+/* Styles for laptops or bigger */
+@media screen and (min-width: 1024) {
+
 }

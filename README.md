@@ -20,6 +20,13 @@ index.html: The landing page of the website, containing an overview of my profil
 
 assets/: Directory containing CSS stylesheets, JavaScript files, images, and other resources used in the website.
 
+## Color Pallate:
+A7BDCE
+677B7F
+1F262D
+4C78AA
+69B6C4
+
 
 ## Setup
 A section was used rather than a footer so that it can move up the screen in browser view and from the contacts section
@@ -35,8 +42,12 @@ Test the website locally by opening the HTML files in a web browser to ensure ev
 ## Bugs/Issues:
 
 Bug1: The Title box displays over the nav-toggle window
+Fix: deployed a Z Axis and moved nav toggle window to be inline with convention
 
 Bug2: The title-picture is displaying above the title-box
+Fix: Used flex box and absolute positioning
+
+Bug3: Title-picture seems to be cut off, not a perfect circle
 
 
 ## Acknowledgments
@@ -54,3 +65,6 @@ For inspiring and providing the CSS method of making a dropdown menu
 
 Pexels: https://www.pexels.com/photo/data-codes-through-eyeglasses-577585/
 A photo uploaded by user Kevin Ku to the free imaging hosting website pexels
+
+Colormind: http://colormind.io/image/
+Helping create a colour sceme based off my hero image
