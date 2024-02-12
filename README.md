@@ -20,7 +20,11 @@ index.html: The landing page of the website, containing an overview of my profil
 
 assets/: Directory containing CSS stylesheets, JavaScript files, images, and other resources used in the website.
 
-## Setup and Deployment
+
+## Setup
+A section was used rather than a footer so that it can move up the screen in browser view and from the contacts section
+
+## Deployment
 Git Hub Pages
 
 ## Testing:
@@ -33,6 +37,7 @@ Test the website locally by opening the HTML files in a web browser to ensure ev
 Bug1: The Title box displays over the nav-toggle window
 
 Bug2: The title-picture is displaying above the title-box
+
 
 ## Acknowledgments
 Google Fonts: https://fonts.google.com/

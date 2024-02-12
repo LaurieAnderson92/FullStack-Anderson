@@ -88,7 +88,10 @@ nav > ul{
     background-position:top;
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
+
 #title-box{
     background-color: rgba( 255, 255, 255, 0.7);
     width: 85%;
@@ -108,6 +111,8 @@ nav > ul{
     border-radius: 50%;
     width: 40vw;
     height: 40vw;
+    align-self: center;
+
 }
 
 /* Contact menu */
