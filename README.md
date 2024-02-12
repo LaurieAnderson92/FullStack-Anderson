@@ -63,8 +63,8 @@ For hosting the website for free.
 CI Love running project: https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu
 For inspiring and providing the CSS method of making a dropdown menu
 
-Pexels: https://www.pexels.com/photo/data-codes-through-eyeglasses-577585/
-A photo uploaded by user Kevin Ku to the free imaging hosting website pexels
+Pexels: https://www.pexels.com/photo/data-codes-through-eyeglasses-577585/ https://www.pexels.com/photo/code-on-a-screen-4383298/
+photos uploaded by users Kevin Ku and Markus Spiske to the free imaging hosting website pexels
 
 Colormind: http://colormind.io/image/
 Helping create a colour sceme based off my hero image

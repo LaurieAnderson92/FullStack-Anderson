@@ -188,19 +188,27 @@ nav > ul{
         background-color: #1F262D
     }
     #contact{
-        width: 30%;
-        max-width: 300px;
-        height: 300px;
+        width: 50%;
+        height: 3rem;
         top: -18px;
         position: relative;
         box-shadow: 0 2px 2px 0px #5A88A8;
+        display: flex;
+    }
+    #contact-dz{
+        width: 150px;
+        flex-shrink: 0;
+    }
+    #contact-space{
+        flex-grow: 1;
     }
     #contact-list{
-        flex-direction: column;
+        flex-direction: row;
         text-wrap: wrap;
+        justify-content: space-evenly;
         font-size: 1.5rem;
+        
     }
-
 }
 
 /* Styles for laptops or bigger */
