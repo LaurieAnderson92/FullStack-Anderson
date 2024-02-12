@@ -194,26 +194,32 @@ nav > ul{
         top: 35%;
     }
     #contact{
-        width: 50%;
+        width: 40%;
         height: 3rem;
         top: -18px;
         position: relative;
         box-shadow: 0 2px 2px 0px #5A88A8;
         display: flex;
     }
-    #contact-dz{
-        width: 150px;
-        flex-shrink: 0;
-    }
+
     #contact-space{
         flex-grow: 1;
     }
+
     #contact-list{
         flex-direction: row;
         text-wrap: wrap;
         justify-content: space-evenly;
         font-size: 1.5rem;
         
+    }
+
+    #nav-toggle:empty~nav{
+        display: block;
+    }
+    #nav{
+        bottom: 0px;
+        position: absolute;
     }
 }
 
