@@ -74,11 +74,13 @@ nav{
     display: none;
     top: 1.5em;
     padding: 0 1rem;
-    z-index: 1;
+    text-align: right;
+    height: 25vw;
 }
 
 nav > ul{
     padding-inline-start: 10px;
+    font-size: 1.25rem;
 } 
 
 /* Title */
@@ -91,20 +93,18 @@ nav > ul{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    z-index: 0;
 }
 
 #title-box{
     background-color: rgba( 255, 255, 255, 0.7);
-    width: 85%;
+    width: 70%;
     height: 25%;
-    left: 5%;
+    left: 2%;
     padding: 1.5em;
     position: absolute;
     border-style: solid;
     border: 15px;
     border-color: rgba( 100, 100, 100, 0.6);
-    z-index: 0;
 }
 
 #title-picture{
