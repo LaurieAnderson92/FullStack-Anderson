@@ -7,6 +7,17 @@
     box-sizing: border-box;
   }
 
+a {
+    text-decoration: none;
+    color: inherit
+  }
+
+  /* mouse hover link */
+a:hover {
+    text-decoration: underline;
+    color: #5A88A8;
+  }
+
 .hidden{
     display: none;
 }
@@ -32,16 +43,6 @@ body{
     text-decoration: underline;
 }
 
-
-/* Troubleshooting contast colours */
-
-
-
-#contact{
-    background-color: yellow;
-}
-/* End of troubleshooting Colours */
-
 /* Header */
 #header{
     background-color: #B6C7D4;
@@ -66,6 +67,10 @@ body{
 #darkmode{
     display: none;
  }
+main{
+    padding-bottom: 3rem;
+}
+
 
 /* Title */
 #title-background{
@@ -101,6 +106,7 @@ body{
     border: 4px;
     border-style: outset;
     border-color: cadetblue;
+    background-color: #B3C1CD;
 }
 
 #title-picture{
@@ -156,7 +162,10 @@ body{
     padding-inline-start: 0px;    
 }
 /* Header Dark mode switch */
-
+#header-list-darkmode{
+    display: flex;
+    justify-content: space-around;
+}
 /* Nav bar */
 nav{
     background-color: #B6C7D4;
@@ -195,6 +204,9 @@ nav > ul{
 
 @media screen and (max-width: 768px) {
     .hide-on-mobile{
+        display: none;
+    }
+    #menu-darkmode{
         display: none;
     }
 
