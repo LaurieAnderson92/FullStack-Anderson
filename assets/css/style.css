@@ -54,6 +54,7 @@ body{
     align-items: baseline;
     position: sticky;
     font-size: 2em;
+    vertical-align: middle;
     
     justify-content: space-between;
 
@@ -119,7 +120,7 @@ body{
     color: white;
     align-self: center;
     position: absolute;
-    right: 2%;
+    left: 2%;
     top: 250px;
     background-color: rgba(31, 38, 45, 0.7);
     padding: 15px;
@@ -179,6 +180,13 @@ nav > ul{
 
 /* Media queries */
 /* Styles for mobile only */
+
+@media screen and (max-width: 375px){
+   #header > h3 {
+        font-size: 1.4rem;
+    }
+}
+
 @media screen and (min-width: 426px){
     #title-picture{
         left: 2%;
@@ -197,10 +205,6 @@ nav > ul{
 @media screen and (min-width: 769px) {
     .hide-on-pc{
         display: none;
-}
-    #header{
-        height: 0px;
-        background-color: #1F262D
     }
     #contact{
         width: 40%;
@@ -219,9 +223,9 @@ nav > ul{
         flex-direction: row;
         text-wrap: wrap;
         justify-content: space-evenly;
-        font-size: 2rem;
-        
+        font-size: 2rem; 
     }
+
     #menu-darkmode{
         background-color: #B6C7D4;
         box-shadow: 0 2px 2px 0px #5A88A8;
@@ -232,12 +236,6 @@ nav > ul{
         text-wrap: wrap;
         font-size: 2rem;
         padding: 0.5rem 0px;
-
-
-    }
-    #header-list-darkmode{
-        display: flex;
-        justify-content: space-evenly;
     }
 
     nav{
