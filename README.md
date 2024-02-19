@@ -48,10 +48,22 @@ Bug2: The title-picture is displaying above the title-box
 Fix: Used flex box and absolute positioning
 
 Bug3: title-picture seems to be cut off, not a perfect circle
+Fix:
 
 Bug4: title-picture was being overlapped by conact bar on large screens
 Fix: moved title picture to left and into title more to appear more like a profile
 
+Bug5: Sensitive information in contat menu
+Fix: Replaced with Placeholder text
+
+Bug6: Website not responsive for 4k resolution
+Fix:
+
+Bug7: Hover colour not contrasting enough
+Fix:
+
+## Future Features:
+- Diffrent CSS for lightmode/darkmode
 
 ## Acknowledgments
 Google Fonts: https://fonts.google.com/
