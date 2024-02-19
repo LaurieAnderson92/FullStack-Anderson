@@ -80,9 +80,9 @@ main{
     height: 550px;
     background: lightblue url(../images/pexels-kevin-ku-577585.jpg) no-repeat center center/cover;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #title-box{
@@ -94,7 +94,7 @@ main{
     justify-self: center;
     padding: 1.5em;
     top: 4rem;
-    position: absolute;
+    /* position: absolute; */
     border-style: solid;
     border: 15px;
     box-shadow: 3px rgba( 100, 100, 100, 0.6);
@@ -110,6 +110,7 @@ main{
     border-color: cadetblue;
     background-color: #374A4E; 
     box-shadow: 3px rgba( 100, 100, 100, 0.6);
+    order: 2;
 }
 
 #title-picture{
@@ -117,23 +118,24 @@ main{
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
     top: 370px;
     width: 40vw;
     max-width: 186px;
     height: 40vw;
     max-height: 186px;
     box-shadow: 3px rgba( 100, 100, 100, 0.6);
+    order: 1;
 }
 
 #title-heading{
     color: white;
-    align-self: center;
-    position: absolute;
+    /* align-self: center; */
     left: 2%;
-    top: 250px;
+    /* top: 250px; */
     background-color: rgba(31, 38, 45, 0.7);
     padding: 15px;
+    order: 0;
 }
 /* Menu */
 #menu{
@@ -195,7 +197,11 @@ nav > ul{
 
 @media screen and (min-width: 426px){
     #title-picture{
+        position: absolute;
         left: 2%;
+    }
+    #title-background{
+        justify-content: flex-start;
     }
 }
 
