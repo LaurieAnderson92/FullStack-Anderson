@@ -45,7 +45,7 @@ body{
 
 /* Header */
 #header{
-    background-color: #B6C7D4;
+    background-image: linear-gradient(#B6C7D4, #374A4E);
     padding: 0.25em 0.4em;
     border-bottom: 3px;
     box-shadow: 0 2px 0px 0px #5A88A8;
@@ -140,7 +140,7 @@ main{
 #contact{
     font-size: 2em;
     height: 1.5em;
-    background-color: #B6C7D4;
+    background-image: linear-gradient(#B6C7D4, #374A4E);
     width: 100%;
     position: fixed;
     bottom: 0px;
@@ -160,11 +160,6 @@ main{
 
 #contact > ul{
     padding-inline-start: 0px;    
-}
-/* Header Dark mode switch */
-#header-list-darkmode{
-    display: flex;
-    justify-content: space-around;
 }
 /* Nav bar */
 nav{
@@ -236,18 +231,6 @@ nav > ul{
         text-wrap: wrap;
         justify-content: space-evenly;
         font-size: 2rem; 
-    }
-
-    #menu-darkmode{
-        background-color: #B6C7D4;
-        box-shadow: 0 2px 2px 0px #5A88A8;
-        position: relative;
-        top: -18px;
-        width: 20%;
-        height: 3rem;
-        text-wrap: wrap;
-        font-size: 2rem;
-        padding: 0.5rem 0px;
     }
 
     nav{
