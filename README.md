@@ -60,7 +60,10 @@ Bug6: Website not responsive for 4k resolution
 Fix:
 
 Bug7: Hover colour not contrasting enough
-Fix:
+Fix: chnaged colour to stronger contrast
+
+Bug8: Hover colour appearing
+Fix: Changed order in style.css, made color inherit
 
 ## Future Features:
 - Diffrent CSS for lightmode/darkmode

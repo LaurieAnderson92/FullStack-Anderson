@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: azure;
   }
 
 a {
@@ -12,21 +13,22 @@ a {
     color: inherit
   }
 
-  /* mouse hover link */
-a:hover {
-    text-decoration: underline;
-    color: #5A88A8;
-  }
-
-.hidden{
-    display: none;
-}
 h1, h2, p, i {
     text-transform: uppercase;
     font-family: "Yantramanav", sans-serif;
     font-weight: 450;
     font-style: normal;
-    color: azure;
+    color: inherit;
+    }
+    
+  /* mouse hover link */
+a:hover {
+    text-decoration: underline;
+    color: #00C8F4;
+  }
+
+.hidden{
+    display: none;
 }
 
 hr {
