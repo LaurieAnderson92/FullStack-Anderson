@@ -13,7 +13,7 @@ a {
     color: inherit
   }
 
-h1, h2, p, i {
+h1, h2, h3, p, i {
     text-transform: uppercase;
     font-family: "Yantramanav", sans-serif;
     font-weight: 450;
@@ -54,21 +54,16 @@ body{
     margin: 0;
 
     display: flex;
-    align-items: baseline;
+    align-items: center;
     position: sticky;
     font-size: 2em;
     vertical-align: middle;
     
-    justify-content: space-between;
+    justify-content: space-around;
 
-    height: 1.5em
+    height: 1.5em;
 }
 
- /* Darkmode */
- /* Header checkbox for Dark mode */
-#darkmode{
-    display: none;
- }
 main{
     padding-bottom: 3rem;
 }
@@ -136,6 +131,7 @@ main{
 /* Menu */
 #menu{
     display: flex;
+    justify-content: flex-end;
 }
 
 /* Contact menu */
@@ -185,7 +181,7 @@ nav > ul{
 /* Media queries */
 /* Styles for mobile only */
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 425px){
    #header > h3 {
         font-size: 1.4rem;
     }
@@ -203,9 +199,6 @@ nav > ul{
 
 @media screen and (max-width: 768px) {
     .hide-on-mobile{
-        display: none;
-    }
-    #menu-darkmode{
         display: none;
     }
 
