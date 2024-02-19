@@ -94,7 +94,6 @@ main{
     justify-self: center;
     padding: 1.5em;
     top: 4rem;
-    /* position: absolute; */
     border-style: solid;
     border: 15px;
     box-shadow: 3px rgba( 100, 100, 100, 0.6);
@@ -118,7 +117,6 @@ main{
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
-    /* position: absolute; */
     top: 370px;
     width: 40vw;
     max-width: 186px;
@@ -130,9 +128,7 @@ main{
 
 #title-heading{
     color: white;
-    /* align-self: center; */
     left: 2%;
-    /* top: 250px; */
     background-color: rgba(31, 38, 45, 0.7);
     padding: 15px;
     order: 0;
