@@ -21,11 +21,12 @@ a:hover {
 .hidden{
     display: none;
 }
-h1, h2, p {
+h1, h2, p, i {
     text-transform: uppercase;
     font-family: "Yantramanav", sans-serif;
     font-weight: 450;
     font-style: normal;
+    color: azure;
 }
 
 hr {
@@ -36,7 +37,7 @@ ul > li {
     list-style-type: none;
 }
 body{
-    background-color: #B3C1CD;
+    background-color: #0C1E22;
 }
 
 .active{
@@ -45,10 +46,9 @@ body{
 
 /* Header */
 #header{
-    background-image: linear-gradient(#B6C7D4, #374A4E);
+    background-image: linear-gradient(#0C1E22, #374A4E);
     padding: 0.25em 0.4em;
     border-bottom: 3px;
-    box-shadow: 0 2px 0px 0px #5A88A8;
     margin: 0;
 
     display: flex;
@@ -106,7 +106,8 @@ main{
     border: 4px;
     border-style: outset;
     border-color: cadetblue;
-    background-color: #B3C1CD;
+    background-color: #374A4E; 
+    box-shadow: 3px rgba( 100, 100, 100, 0.6);
 }
 
 #title-picture{
@@ -120,6 +121,7 @@ main{
     max-width: 186px;
     height: 40vw;
     max-height: 186px;
+    box-shadow: 3px rgba( 100, 100, 100, 0.6);
 }
 
 #title-heading{
@@ -140,11 +142,10 @@ main{
 #contact{
     font-size: 2em;
     height: 1.5em;
-    background-image: linear-gradient(#B6C7D4, #374A4E);
+    background-image: linear-gradient(#374A4E, #0C1E22);
     width: 100%;
     position: fixed;
     bottom: 0px;
-    box-shadow: 0 -2px 2px 0px #5A88A8;
 }
 
 #contact-list{
@@ -163,8 +164,7 @@ main{
 }
 /* Nav bar */
 nav{
-    background-color: #B6C7D4;
-    box-shadow: 0 2px 2px 0px #5A88A8;
+    background-image: linear-gradient(#374A4E, #0C1E22);
     width: 100%;
     position: relative;
     float: right;
@@ -218,7 +218,6 @@ nav > ul{
         height: 3rem;
         top: -18px;
         position: relative;
-        box-shadow: 0 2px 2px 0px #5A88A8;
     }
 
     #contact-space{
