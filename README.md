@@ -62,7 +62,7 @@ Bug5: Sensitive information in contact menu
 Fix: Replaced with Placeholder text
 
 Bug6: Website not responsive for 4k resolution
-Fix: added divs to either side to keep site compact on 4k screens
+Fix: added divs to either side to keep site compact on 4k screens, limited the centre div to 1440px max, the left and right divs are using Flex Grow
 
 Bug7: Hover colour not contrasting enough
 Fix: changed colour to stronger contrast
