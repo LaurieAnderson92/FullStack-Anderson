@@ -95,6 +95,7 @@ Kevin Ku
 Brett Sayles
 Anete Lusina
 Pixabay
+Mikhail Nilov
 
 Colormind: http://colormind.io/image/
 Helping create a colour sceme based off my hero image
