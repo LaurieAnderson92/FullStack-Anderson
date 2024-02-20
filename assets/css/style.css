@@ -100,6 +100,7 @@ main{
     border: 15px;
     box-shadow: 3px rgba( 100, 100, 100, 0.6);
     color: #0C1E22;
+    order: 2;
 }
 
 #title-box-link{
@@ -112,7 +113,6 @@ main{
     border-color: cadetblue;
     background-color: #374A4E; 
     box-shadow: 3px rgba( 100, 100, 100, 0.6);
-    order: 2;
 }
 
 #title-picture{
@@ -194,6 +194,11 @@ nav > ul{
 
 .page-content img{
     margin: 0rem 1rem;
+}
+
+.page-content-reference{
+    margin: 2rem;
+    font-style: italic;
 }
 
 
