@@ -92,6 +92,7 @@ main{
     border-style: solid;
     border: 15px;
     box-shadow: 3px rgba( 100, 100, 100, 0.6);
+    color: #0C1E22;
 }
 
 #title-box-link{
@@ -127,6 +128,7 @@ main{
     background-color: rgba(31, 38, 45, 0.7);
     padding: 15px;
     order: 0;
+    margin: 1.5rem;
 }
 /* Menu */
 #menu{
