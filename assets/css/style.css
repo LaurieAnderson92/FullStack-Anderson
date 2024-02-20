@@ -208,9 +208,9 @@ nav > ul{
     margin: 0rem 1rem;
 }
 
-/* #404-content{
+#error-content{
    text-align: center; 
-} */
+}
 
 
 /* Media queries */
@@ -281,7 +281,7 @@ nav > ul{
     }
 
     #middle-column{
-        max-width: 1440px;
+        width: 1440px;
     }
     #right-column,#left-column{
         flex-grow: 1;
