@@ -39,7 +39,7 @@ Git Hub Pages
 Test the website locally by opening the HTML files in multiple web browsers to ensure everything displays correctly, in testing with myself and others a number of enhancements were suggested:
 
 Enhancement1: Make the download button the complete anchor
-Status: Testing
+Status: Done
 
 Enhancement2: Image position on each content could be better
 Status: Scoping
