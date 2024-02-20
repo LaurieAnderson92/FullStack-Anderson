@@ -69,6 +69,7 @@ body{
     justify-content: space-around;
 
     height: 1.5em;
+    width: 100%;
 }
 
 main{
@@ -269,9 +270,18 @@ nav > ul{
 
 }
 
-/* Styles for laptops or bigger */
-@media screen and (min-width: 1024) {
+/* Styles for 4k */
+@media screen and (min-width: 1440px) {
+    body{
+        display: flex;
+    }
 
+    #middle-column{
+        max-width: 1440px;
+    }
+    #right-column,#left-column{
+        flex-grow: 1;
+    }
 }
 
 /* Google fonts */
