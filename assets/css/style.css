@@ -121,7 +121,6 @@ main{
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
-    top: 370px;
     width: 40vw;
     max-width: 186px;
     height: 40vw;
@@ -221,7 +220,8 @@ nav > ul{
 
 @media screen and (min-width: 426px){
     #title-picture{
-        position: absolute;
+        position: relative;
+        align-self: flex-start;
         left: 2%;
     }
     #title-background{
