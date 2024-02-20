@@ -88,6 +88,8 @@ Brett Sayles
 Anete Lusina
 Pixabay
 
-
 Colormind: http://colormind.io/image/
 Helping create a colour sceme based off my hero image
+
+Coloring for Colorblindness: https://davidmathlogic.com/
+Helping me choose a color scheme for each content page that's fulkly accessable

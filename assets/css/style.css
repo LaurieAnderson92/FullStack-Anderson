@@ -14,11 +14,14 @@ a {
   }
 
 h1, h2, h3, p, i {
-    text-transform: uppercase;
     font-family: "Yantramanav", sans-serif;
     font-weight: 450;
     font-style: normal;
     color: inherit;
+    }
+
+h1, h2, h3 {
+    text-transform: uppercase;
     }
     
   /* mouse hover link */
@@ -35,7 +38,7 @@ hr {
     border-top: 1px solid slategray;
     }
 
-ul > li {
+ul li {
     list-style-type: none;
 }
 body{
@@ -182,11 +185,11 @@ nav > ul{
 
 /* content */
 .page-content p {
-    margin: 1em 2em;
+    margin: 1rem ;
 }
 
-.page-content h2 {
-    margin-left: 1em;
+.page-content img{
+    margin: 0rem 1rem;
 }
 
 
