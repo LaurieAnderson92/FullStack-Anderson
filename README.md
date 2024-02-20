@@ -71,7 +71,7 @@ Bug8: Hover colour appearing
 Fix: Changed order in style.css, made color inherit
 
 Bug9: CV link broken
-Fix:
+Fix: changed name of file to fit convention, replaced path with valid directory
 
 ## Future Features:
 - Diffrent CSS for lightmode/darkmode
