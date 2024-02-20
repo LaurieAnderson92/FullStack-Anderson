@@ -180,6 +180,16 @@ nav > ul{
     justify-content: space-around;
 } 
 
+/* content */
+.page-content p {
+    margin: 1em 2em;
+}
+
+.page-content h2 {
+    margin-left: 1em;
+}
+
+
 /* Media queries */
 /* Styles for mobile only */
 
