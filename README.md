@@ -102,3 +102,6 @@ Helping create a colour sceme based off my hero image
 
 Coloring for Colorblindness: https://davidmathlogic.com/
 Helping me choose a color scheme for each content page that's fulkly accessable
+
+https://favicon.io/emoji-favicons/nerd-face
+Made a freeuse favicon
