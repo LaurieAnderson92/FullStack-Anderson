@@ -47,8 +47,8 @@ Enhancement2: Image position on each content could be better
 Status: Disagree, happy with current image placements
 
 ## Validation
-
-styles.css passes the oficial CSS validator (Jigsaw)
+all .html pages pass official W3C Validator: https://validator.w3.org/#validate_by_input
+styles.css passes the oficial W3C CSS validator (Jigsaw): https://jigsaw.w3.org/css-validator/
 
 ## Bugs/Issues:
 
