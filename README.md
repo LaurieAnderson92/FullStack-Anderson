@@ -92,9 +92,6 @@ For the comprehensive collection of icons used throughout the website.
 GitHub Pages: https://pages.github.com/
 For hosting the website for free.
 
-CI Love running project: https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu
-For inspiring and providing the CSS method of making a dropdown menu
-
 Pexels: https://www.pexels.com/photo/data-codes-through-eyeglasses-577585/ https://www.pexels.com/photo/code-on-a-screen-4383298/
 photos uploaded by users to the free imaging hosting website pexels:
 Kevin Ku 
@@ -109,5 +106,8 @@ Helping create a colour sceme based off my hero image
 Coloring for Colorblindness: https://davidmathlogic.com/
 Helping me choose a color scheme for each content page that's fulkly accessable
 
-https://favicon.io/emoji-favicons/nerd-face
-Made a freeuse favicon
+Favicon IO: https://favicon.io/emoji-favicons/nerd-face
+software to make a freeuse favicon
+
+Kim Britnell: https://www.linkedin.com/in/kimbritnell/
+For proof reading and suggesting edits to the text content
