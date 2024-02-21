@@ -17,7 +17,10 @@ This repository contains the codebase for my personal CV website. This website s
 
 ## Structure
 index.html: The landing page of the website, containing an overview of my profile and links to different sections in the header
-
+experience.html: The page detailing all of my learning and professional experience 
+references.html: The page listing two of my most recent references publicly available on my l, and links to their linked in pages
+callback.html: the page to submit a callback request regaring a project
+404.html: A page made to alert the user they have gone into an inactive link.
 
 assets: Directory containing CSS stylesheets, JavaScript files, images, and other resources used in the website.
 
@@ -27,7 +30,6 @@ A7BDCE
 1F262D
 4C78AA
 69B6C4
-
 
 ## Setup:
 A section was used rather than a footer so that it can move up the screen in browser view and from the contacts section
@@ -42,7 +44,11 @@ Enhancement1: Make the download button the complete anchor
 Status: Done
 
 Enhancement2: Image position on each content could be better
-Status: Scoping
+Status: Disagree, happy with current image placements
+
+## Validation
+
+styles.css passes the oficial CSS validator (Jigsaw)
 
 ## Bugs/Issues:
 
