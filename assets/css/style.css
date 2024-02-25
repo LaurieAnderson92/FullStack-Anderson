@@ -67,25 +67,18 @@ a:hover {
     padding: 0.25em 0.4em;
     border-bottom: 3px;
     margin: 0;
-
     display: flex;
     align-items: center;
     position: sticky;
     font-size: 2em;
     vertical-align: middle;
-    
     justify-content: space-around;
-
     height: 1.5em;
     width: 100%;
 }
 
 
-/* Title */
-#title-heading > h2{
-    font-size: 1.17em;
-}
-
+/* Title section hero image*/
 #title-background{
     width: 100%;
     height: 550px;
@@ -96,6 +89,21 @@ a:hover {
     align-items: center;
 }
 
+/* Name and Job title */
+#title-heading{
+    color: #f0ffff;
+    left: 2%;
+    background-color: rgba(12, 30, 34, 0.8);
+    padding: 15px;
+    order: 0;
+    margin: 1.5rem;
+}
+
+#title-heading > h2{
+    font-size: 1.17em;
+}
+
+/* Box with the CV link */
 #title-box{
     background-color: rgba( 255, 255, 255, 0.9);
     width: 70%;
@@ -111,6 +119,7 @@ a:hover {
     order: 1;
 }
 
+/* The link button for CV */
 #title-box-link{
     display: flex;
     align-items: center;
@@ -122,6 +131,7 @@ a:hover {
     background-color: #374A4E; 
 }
 
+/* Profile picture, div is made into a circle */
 #title-picture{
     background-image: url(../images/profile_picture.jpg);
     background-size: contain;
@@ -134,21 +144,13 @@ a:hover {
     order: 2;
 }
 
-#title-heading{
-    color: #f0ffff;
-    left: 2%;
-    background-color: rgba(12, 30, 34, 0.8);
-    padding: 15px;
-    order: 0;
-    margin: 1.5rem;
-}
-/* Menu */
+/* Menu, this creates the flexbox for both the contact div and the nav menu */
 #menu{
     display: flex;
     justify-content: flex-end;
 }
 
-/* Contact menu */
+/* Contact Menu */
 #contact{
     font-size: 2em;
     height: 1.5em;
@@ -172,7 +174,8 @@ a:hover {
 #contact > ul{
     padding-inline-start: 0px;    
 }
-/* Nav bar */
+
+/* Navigation bar */
 nav{
     background-image: linear-gradient(#374A4E, #0C1E22);
     width: 100%;
@@ -192,7 +195,7 @@ nav > ul{
     justify-content: space-around;
 } 
 
-/* All content */
+/*Below this line is the styles for the individual pages */
 .page-content{
     margin-left: 0.5rem;
 }
@@ -213,11 +216,12 @@ nav > ul{
     margin: 0rem 1rem;
 }
 
-/* 404 page */
+/* 404.html styles */
 #error-content{
    text-align: center; 
 }
-/* callback page */
+
+/* callback.html styles */
 #callback-background{
     background: url(../images/pexels-mikhail-nilov-6963945.jpg) no-repeat 80% 20%/cover;
     width: 100%;
@@ -246,17 +250,18 @@ nav > ul{
     padding: 0.5rem;
 }
 
-
 /* Media queries */
-/* Styles for mobile only */
 
+/* Styles for mobile only */
 @media screen and (max-width: 425px){
-   #header > h3 {
+/* This reduces the header size on the smaller screens */
+    #header > h3 {
         font-size: 1.4rem;
     }
 }
 
 @media screen and (min-width: 426px){
+    /* This moves the picture of me to the left on bigger screens */
     #title-picture{
         position: relative;
         align-self: flex-start;
@@ -268,27 +273,25 @@ nav > ul{
 }
 
 @media screen and (max-width: 768px) {
+    /* This hides certain things on mobile screens */
     .hide-on-mobile{
         display: none;
     }
-
-    /* Contact as footer on mobile */
 }
 
 /* Styles for PC*/
 @media screen and (min-width: 769px) {
+    /* This hides certain things on pc screens */
     .hide-on-pc{
         display: none;
     }
+
+    /* These  styles move the contact div and the nav to form the single menu bar*/
     #contact{
         width: 40%;
         height: 3rem;
         top: -18px;
         position: relative;
-    }
-
-    #contact-space{
-        flex-grow: 1;
     }
 
     #contact-list{
