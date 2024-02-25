@@ -78,6 +78,10 @@ main{
 
 
 /* Title */
+#title-heading > h2{
+    font-size: 1.17em;
+}
+
 #title-background{
     width: 100%;
     height: 550px;
