@@ -1,12 +1,10 @@
 # FullStack Anderson
-<hr>
 
 Welcome,
 
 This repository contains the codebase for my personal CV website. This website serves as an online resume showcasing my skills, experience, and projects. It's designed to provide visitors with a comprehensive overview of my professional background and expertise as well as highlighting a interest in making websites accessible.
 
 ## Setup
-<hr>
 
 ### Technologies Used:
 * **HTML:** Used for structuring the content of the web pages.<br>
@@ -35,7 +33,6 @@ Currently the website is deployed in Git Hub Pages: https://laurieanderson92.git
 To deploy this page locally, you can download the files from https://github.com/LaurieAnderson92/FullStack-Anderson and run it on a brownser in your machine.<br>
 
 ## Features
-<hr>
 
 ### User Stories:
 * When a user first views the website, they'll want to immediately know what it is.
@@ -70,10 +67,10 @@ in multiple web browsers and inspecting the page. Then changing the width of the
 | **2560px**    |       ✓   |     ✓       |     ✓    |     ✓    |
 
 ### Validation
-all .html pages pass official W3C Validator: https://validator.w3.org/#validate_by_input, Lighthouse and Wave test<br>
+all .html pages pass [official W3C Validator](https://validator.w3.org/#validate_by_input) Lighthouse and Wave test<br>
 Insert Pictures<br>
 <br>
-styles.css passes the oficial W3C CSS validator (Jigsaw): https://jigsaw.w3.org/css-validator/<br>
+styles.css passes the [oficial W3C CSS validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)<br>
 Insert pictures<br>
 
 ### Bugs & Enhancements:
@@ -113,17 +110,12 @@ Enhancement2: Image position on each content could be better<br>
 Status: Disagree, happy with current image placements<br>
 
 ## Acknowledgments
-Google Fonts: https://fonts.google.com/<br>
-Currently haven't choses a font yet, But i plan to once I build less and design more<br>
+[Google Fonts](https://fonts.google.com)<br>
+[Font Awesome](https://fontawesome.com) For the comprehensive collection of icons used throughout the website.<br>
 <br>
-Font Awesome: https://fontawesome.com/<br>
-For the comprehensive collection of icons used throughout the website.<br>
+[GitHub Pages](https://pages.github.com/) For hosting the website for free.<br>
 <br>
-GitHub Pages: https://pages.github.com/<br>
-For hosting the website for free.<br>
-<br>
-Pexels: https://www.pexels.com/photo/data-codes-through-eyeglasses-577585/ https://www.pexels.com/photo/code-on-a-screen-4383298/<br>
-photos uploaded by users to the free imaging hosting website pexels:<br>
+[Pexels](https://www.pexels.com/photo/data-codes-through-eyeglasses-577585/ https://www.pexels.com/photo/code-on-a-screen-4383298/) photos uploaded by users to the free imaging hosting website pexels:<br>
 // Make this a list
 Kevin Ku <br>
 Brett Sayles <br>
@@ -131,14 +123,12 @@ Anete Lusina<br>
 Pixabay<br>
 Mikhail Nilov<br>
 
-Colormind: http://colormind.io/image/<br>
-Helping create a colour sceme based off my hero image<br>
-
-Coloring for Colorblindness: https://davidmathlogic.com/<br>
-Helping me choose a color scheme for each content page that's fully accessable<br>
+[Colormind] (http://colormind.io/image/)Helping create a colour sceme based off my hero image<br>
 <br>
-Favicon IO: https://favicon.io/emoji-favicons/nerd-face<br>
-software to make a freeuse favicon<br>
+[Coloring for Colorblindness](https://davidmathlogic.com/) helping me choose a color scheme for each content page that's fully accessable<br>
 <br>
-Kim Britnell: https://www.linkedin.com/in/kimbritnell/<br>
-For proof reading and suggesting edits to the text content<br>
+[Favicon IO](https://favicon.io/emoji-favicons/nerd-face) software to make a freeuse favicon<br>
+<br>
+[Kim Britnell] (https://www.linkedin.com/in/kimbritnell/) for proof reading and suggesting edits to the text content<br>
+<br>
+Kera Cudmore's [guide](https://github.com/kera-cudmore/readme-examples) on making a good README. 
