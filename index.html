@@ -17,7 +17,7 @@
 <link rel="manifest" href="assets/favicon_io/site.webmanifest">
 </head>
 <body>
-    <!-- 4K resolution -->
+    <!-- Three divs in a flexbox for 4K resolution media query -->
 <div id="left-column"></div>
 <div id="middle-column">
     <!-- Header -->
@@ -27,12 +27,16 @@
     <main>
         <!-- Title section -->
         <section id="title">
+            <!-- This is the hero image -->
             <div id="title-background">
+                <!-- This is the picture to act lie a social media profile picture -->
                 <div id="title-picture"></div>
+                <!-- This is the eyecatching name and title which tells users what the website is for. -->
                 <div id="title-heading">
                     <h1 id="title-heading-name" class="title-box-contents">Laurie Anderson</h1>
                     <h2 id="title-heading-job" class="title-box-contents">FullStack Developer and A11Y/UX specialist</h2>
                 </div>
+                <!-- This is the box where a user can download the CV -->
                 <div id="title-box">
                     <h1 id="title-box-slogan" class="title-box-contents"> I Am Your Freelancer</h1>
                     <hr>
@@ -44,12 +48,12 @@
                     </a>
                 </div>
             </div>
-            <br>
-                    
         </section>
-    <!-- How to contact me -->
+    <!-- This section is an adaptive menu that moves around with the screen size -->
         <section id="menu">
-            <h2 class="hidden">Contact me</h2>
+            <!--  This heading is hidden from most viewers, but is included for a semantic reason -->
+            <h2 class="hidden">Contact me</h2> 
+            <!-- Contact Div, This is within the main so that it can move around and form a single menu bar with the navigation menu via flexbox -->
             <div id="contact">
                 <ul id="contact-list">
                     <li><a href="callback.html" 
@@ -63,6 +67,7 @@
                         aria-label="Check out my Linkedin"><i class="fa-brands fa-linkedin"></i> <p class="hide-on-mobile"></p></a></li>
                 </ul>
             </div>
+            <!-- Nav bar, This is within the main so that it can move around and form a single menu bar with the contact div via flexbox -->
             <nav>
                 <ul>
                     <li><a href="index.html"><p class="active">About</p></a></li>
@@ -71,6 +76,7 @@
                 </ul>
             </nav>
         </section> 
+        <!-- This is the main content page for index.html -->
         <section class="page-content">
             <img src="assets/images/pexels-anete-lusina-4792728.jpg" alt="A wooden desk with a mouse and keyboard with red lights, multiple monitors in the background one displaying a code editor" style="float:left;width:40%;height:600px;object-fit: cover;" class="hide-on-mobile">
             <div>
@@ -96,7 +102,8 @@
     </main>
     <!-- Font awesome kit -->
     <script src="https://kit.fontawesome.com/38fef1e39a.js" crossorigin="anonymous"></script>
-    <!-- 4K resolution -->
+
+<!-- Three divs in a flexbox for 4K resolution media query -->
 </div>
 <div id="right-column"></div>
 </body>
