@@ -56,17 +56,18 @@ To deploy this page locally, you can download the files from https://github.com/
 ## Quality Assurance
 
 ### Testing:
-Test the website locally by opening the HTML files in multiple web browsers to ensure everything displays correctly, in testing with myself and others a number of enhancements were suggested:<br>
+Test the website locally by navigating to the link: https://laurieanderson92.github.io/FullStack-Anderson/ 
+in multiple web browsers and inspecting the page. Then changing the width of the page with the built in responsive design modee to ensure each page displays correctly.<br>
 
 | **Width**     | __Chrome__ | __Firefox__ | __Edge__ | __Safari__|
 | -----------:  | :--------: | :---------: | :-----:  | :-------: |
-| **320px**     |     ✓     |
-| **375px**     |      ✓    |
-| **425px**     |       ✓   |
-| **768px**     |        ✓  |
-| **1024px**    |     ✓     |
-| **1440px**    |      ✓    |
-| **2560px**    |       ✓   |
+| **320px**     |     ✓     |     ✓       |     ✓    |     ✓    |
+| **375px**     |      ✓    |     ✓       |     ✓    |     ✓    |
+| **425px**     |       ✓   |     ✓       |     ✓    |     ✓    |
+| **768px**     |        ✓  |     ✓       |     ✓    |     ✓    |
+| **1024px**    |     ✓     |     ✓       |     ✓    |     ✓    |
+| **1440px**    |      ✓    |     ✓       |     ✓    |     ✓    |
+| **2560px**    |       ✓   |     ✓       |     ✓    |     ✓    |
 
 ### Validation
 all .html pages pass official W3C Validator: https://validator.w3.org/#validate_by_input, Lighthouse and Wave test<br>
