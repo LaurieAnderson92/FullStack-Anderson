@@ -57,7 +57,16 @@ To deploy this page locally, you can download the files from https://github.com/
 
 ### Testing:
 Test the website locally by opening the HTML files in multiple web browsers to ensure everything displays correctly, in testing with myself and others a number of enhancements were suggested:<br>
-//Inset table with testing data on multiple browsers and screen sizes.
+
+| **Width**     | __Chrome__ | __Firefox__ | __Edge__ | __Safari__|
+| -----------:  | :--------: | :---------: | :-----:  | :-------: |
+| **320px**     |  <i class="fa-solid fa-circle-check"></i>       |
+| **375px**     | $80     |
+| **425px**     | $420    |
+| **768px**     | $420    |
+| **1024px**    | $420    |
+| **1440px**    | $420    |
+| **2560px**    | $420    |
 
 ### Validation
 all .html pages pass official W3C Validator: https://validator.w3.org/#validate_by_input, Lighthouse and Wave test<br>
@@ -132,3 +141,6 @@ software to make a freeuse favicon<br>
 <br>
 Kim Britnell: https://www.linkedin.com/in/kimbritnell/<br>
 For proof reading and suggesting edits to the text content<br>
+
+<!-- Font awesome kit -->
+    <script src="https://kit.fontawesome.com/38fef1e39a.js" crossorigin="anonymous"></script>
