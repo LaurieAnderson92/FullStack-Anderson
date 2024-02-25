@@ -23,6 +23,22 @@ h1, h2, h3, p, i, li {
 h1, h2, h3 {
     text-transform: uppercase;
     }
+
+hr {
+    border-top: 1px solid slategray;
+    }
+    
+nav li {
+    list-style-type: none;
+    }
+    
+body{
+    background-color: #0C1E22;
+    }
+    
+main{
+        padding-bottom: 3rem;
+    }
     
   /* mouse hover link */
 a:hover {
@@ -34,16 +50,6 @@ a:hover {
     display: none;
 }
 
-hr {
-    border-top: 1px solid slategray;
-    }
-
-nav li {
-    list-style-type: none;
-}
-body{
-    background-color: #0C1E22;
-}
 .page-content > ul{
     list-style-type:square;
     list-style-position: inside;
@@ -72,10 +78,6 @@ body{
     width: 100%;
 }
 
-main{
-    padding-bottom: 3rem;
-}
-
 
 /* Title */
 #title-heading > h2{
@@ -93,7 +95,7 @@ main{
 }
 
 #title-box{
-    background-color: rgba( 255, 255, 255, 0.7);
+    background-color: rgba( 255, 255, 255, 0.9);
     width: 70%;
     max-width: 300px;
     height: 15%;
