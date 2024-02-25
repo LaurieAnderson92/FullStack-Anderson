@@ -27,7 +27,7 @@ This repository contains the codebase for my personal CV website. This website s
 
 ### Color Pallate:
 I used [Colormind](http://colormind.io) to create a color palete based off my hero image, then tweeked the colors to make them higher contrast of each other.
-![Color Palate: #f0ffff, #5f9ea0, #00c8f4, #374a4e, #0c1e22 ](assets/documentation/color-palette.PNG)
+![Color Palate: #f0ffff, #5f9ea0, #00c8f4, #374a4e, #0c1e22 ](assets/documentation/color-palette.png)
 
 ### Deployment:
 Currently the website is deployed in Git Hub Pages: https://laurieanderson92.github.io/FullStack-Anderson/<br>
@@ -68,11 +68,15 @@ in multiple web browsers and inspecting the page. Then changing the width of the
 | **2560px**    |       ✓   |     ✓       |     ✓    |     ✓    |
 
 ### Validation
-all .html pages pass [official W3C Validator](https://validator.w3.org/#validate_by_input) Lighthouse and Wave test<br>
-Insert Pictures<br>
+#### all .html pages pass [official W3C Validator](https://validator.w3.org/#validate_by_input)
+![sucessful w3c validator for html pages](assets/documentation/html-validation.png)
 <br>
-styles.css passes the [oficial W3C CSS validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)<br>
-Insert pictures<br>
+#### style.css passed the [oficial W3C CSS validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)<br>
+![sucessful w3c validator for css page](assets/documentation/css-validation.png)
+<br>
+#### webpages pass the [wave accessability evaluation tool](https://wave.webaim.org/report#/https://laurieanderson92.github.io/FullStack-Anderson/index.html)<br>
+![sucessful wave valudation](assets/documentation/wave-validation.png)
+<br>
 
 ### Bugs & Enhancements:
 // Expand on this
