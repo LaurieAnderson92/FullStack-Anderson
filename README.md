@@ -26,6 +26,7 @@ This repository contains the codebase for my personal CV website. This website s
 * **assets:** Directory containing CSS stylesheets, JavaScript files, images, and other resources used in the website.<br>
 
 ### Color Pallate:
+I used [Colormind](http://colormind.io) to create a color palete based off my hero image, then tweeked the colors to make them higher contrast of each other.
 ![Color Palate: #f0ffff, #5f9ea0, #00c8f4, #374a4e, #0c1e22 ](assets/documentation/color-palette.PNG)
 
 ### Deployment:
@@ -110,25 +111,17 @@ Enhancement2: Image position on each content could be better<br>
 Status: Disagree, happy with current image placements<br>
 
 ## Acknowledgments
-[Google Fonts](https://fonts.google.com)<br>
-[Font Awesome](https://fontawesome.com) For the comprehensive collection of icons used throughout the website.<br>
-<br>
-[GitHub Pages](https://pages.github.com/) For hosting the website for free.<br>
-<br>
-[Pexels](https://www.pexels.com/photo/data-codes-through-eyeglasses-577585/ https://www.pexels.com/photo/code-on-a-screen-4383298/) photos uploaded by users to the free imaging hosting website pexels:<br>
-// Make this a list
-Kevin Ku <br>
-Brett Sayles <br>
-Anete Lusina<br>
-Pixabay<br>
-Mikhail Nilov<br>
-
-[Colormind] (http://colormind.io/image/)Helping create a colour sceme based off my hero image<br>
-<br>
-[Coloring for Colorblindness](https://davidmathlogic.com/) helping me choose a color scheme for each content page that's fully accessable<br>
-<br>
-[Favicon IO](https://favicon.io/emoji-favicons/nerd-face) software to make a freeuse favicon<br>
-<br>
-[Kim Britnell] (https://www.linkedin.com/in/kimbritnell/) for proof reading and suggesting edits to the text content<br>
-<br>
-Kera Cudmore's [guide](https://github.com/kera-cudmore/readme-examples) on making a good README. 
+* [Google Fonts](https://fonts.google.com)<br>
+* [Font Awesome](https://fontawesome.com) For the comprehensive collection of icons used throughout the website.<br>
+* [GitHub Pages](https://pages.github.com/) For hosting the website for free.<br>
+* [Pexels](https://www.pexels.com/) photos uploaded by users to the free imaging hosting website pexels:<br>
+  * Kevin Ku <br>
+  * Brett Sayles <br>
+  * Anete Lusina<br>
+  * Pixabay<br>
+  * Mikhail Nilov<br>
+* [Colormind](http://colormind.io) Helping create a colour sceme based off my hero image<br>
+* [Coloring for Colorblindness](https://davidmathlogic.com/) helping me choose a color scheme for each content page that's fully accessable<br>
+* [Favicon IO](https://favicon.io/emoji-favicons/nerd-face) software to make a freeuse favicon<br>
+* [Kim Britnell] (https://www.linkedin.com/in/kimbritnell/) for proof reading and suggesting edits to the text content<br>
+* Kera Cudmore's [guide](https://github.com/kera-cudmore/readme-examples) on making a good README. 
