@@ -60,13 +60,13 @@ Test the website locally by opening the HTML files in multiple web browsers to e
 
 | **Width**     | __Chrome__ | __Firefox__ | __Edge__ | __Safari__|
 | -----------:  | :--------: | :---------: | :-----:  | :-------: |
-| **320px**     |  <i class="fa-solid fa-circle-check"></i>       |
-| **375px**     | $80     |
-| **425px**     | $420    |
-| **768px**     | $420    |
-| **1024px**    | $420    |
-| **1440px**    | $420    |
-| **2560px**    | $420    |
+| **320px**     |     ✓     |
+| **375px**     |      ✓    |
+| **425px**     |       ✓   |
+| **768px**     |        ✓  |
+| **1024px**    |     ✓     |
+| **1440px**    |      ✓    |
+| **2560px**    |       ✓   |
 
 ### Validation
 all .html pages pass official W3C Validator: https://validator.w3.org/#validate_by_input, Lighthouse and Wave test<br>
@@ -141,6 +141,3 @@ software to make a freeuse favicon<br>
 <br>
 Kim Britnell: https://www.linkedin.com/in/kimbritnell/<br>
 For proof reading and suggesting edits to the text content<br>
-
-<!-- Font awesome kit -->
-    <script src="https://kit.fontawesome.com/38fef1e39a.js" crossorigin="anonymous"></script>
