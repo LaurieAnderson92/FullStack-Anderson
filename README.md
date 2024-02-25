@@ -38,14 +38,20 @@ To deploy this page locally, you can download the files from https://github.com/
 <hr>
 
 ### User Stories:
-
+* When a user first views the website, they'll want to immediately know what it is.
+* When a user navigates the website, it should be obvious and intuative.
+* If the user wants to find The link to the CV, it should be prominent and obvious.
+* If a user views the github respository to view the quality of the code, it should be well commented and organised.
+* For a user the style should be visually consistent and appealing.
 
 ### Delivery:
 // List of existing features in the webpage 
 
 ### Future Features:
-// Expand list
-- Diffrent CSS for lightmode/darkmode
+* Diffrent CSS for lightmode/darkmode
+* Expand on the contact form and link it to an email inbox
+* Expand on the projects with links to them in the portfolio
+* Add visual interest in the dives in 4k resolution
 
 ## Quality Assurance
 
