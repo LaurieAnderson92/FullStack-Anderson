@@ -70,7 +70,14 @@ By using the same bar that flexes around the page I'm able to avoid bulky, dupli
 * Diffrent CSS for lightmode/darkmode
 * Expand on the contact form and link it to an email inbox
 * Expand on the projects with links to them in the portfolio
-* Add visual interest in the dives in 4k resolution
+* Add visual interest in the divs in 4k resolution
+* Start to better define my commits with clearer and catagorized commits such as 
+ * feat:
+ * bugfix:
+ * BREAKING CHANGE:
+ * style:
+ * doc:
+ * test:
 
 ## Quality Assurance
 
