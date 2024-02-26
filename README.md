@@ -79,40 +79,38 @@ in multiple web browsers and inspecting the page. Then changing the width of the
 <br>
 
 ### Bugs & Enhancements:
-// Expand on this
-Bug1: The Title box displays over the nav-toggle window<br>
-Fix: deployed a Z Axis and moved nav toggle window to be inline with convention<br>
-<br>
-Bug2: The title-picture is displaying above the title-box<br>
-Fix: Used flex box and absolute positioning<br>
-<br>
-Bug3: title-picture seems to be cut off, not a perfect circle<br>
-Fix: Unable to reproduce as of 20/02/2024<br>
-<br>
-Bug4: title-picture was being overlapped by conact bar on large screens<br>
-Fix: moved title picture to left and into title more to appear more like a profile<br>
-<br>
-Bug5: Sensitive information in contact menu<br>
-Fix: Replaced with Placeholder text<br>
-<br>
-Bug6: Website not responsive for 4k resolution<br>
-Fix: added divs to either side to keep site compact on 4k screens, limited the centre div to 1440px max, the left and right divs are using Flex Grow<br>
-<br>
-Bug7: Hover colour not contrasting enough<br>
-Fix: changed colour to stronger contrast<br>
-<br>
-Bug8: Hover colour appearing<br>
-Fix: Changed order in style.css, made color inherit<br>
-<br>
-Bug9: CV link broken<br>
-Fix: changed name of file to fit convention, replaced path with valid directory<br>
+I have three different categories of bugs:
+* Cosmetic: a cosmetic issue that does not impact the webpage's funtionality
+* Funtional: a issue that does have a impact to the webpage funtionality
+* Critical: a bug that has caused a critical issue, such as a complet site down or a security vunrability.
 
-
-Enhancement1: Make the download button the complete anchor<br>
-Status: Done<br>
+**Bug1:** Cosmetic. The Title box displays over the nav-toggle window<br>
+**Fix:** Deployed a Z Axis attribute to the title div and moved nav toggle window to be inline with convention<br>
 <br>
-Enhancement2: Image position on each content could be better<br>
-Status: Disagree, happy with current image placements<br>
+**Bug2:** Cosmetic. The title-picture is displaying above the title-box<br>
+**Fix:** Reorganised the flexbox and utilized absolute positioning for a responsive design<br>
+<br>
+**Bug3:** Cosmetic. Title-picture seems to be cut off, not a perfect circle<br>
+**Fix:** Unable to reproduce as of 20/02/2024<br>
+<br>
+**Bug4:** Cosmetic. Title-picture was being overlapped by conact bar on large screens<br>
+**Fix:** Moved title picture to left and up into title more to appear more like a social media profile on larger screens<br>
+<br>
+**Bug5:** Critical. Sensitive information in contact menu<br>
+**Fix:** Replaced with Placeholder text initially, then the email function was rolled into the callback form<br>
+<br>
+**Bug6:** Funtional. Website not responsive for 4k resolution<br>
+**Fix:** Added divs to either side to keep site compact on 4k screens, limited the centre div to 1440px max, the left and right divs are using Flex Grow<br>
+<br>
+**Bug7:** Accessability. Hover colour not contrasting enough<br>
+**Fix:** according to lighhouse, the colour that was appearing on hover wasn't contrasting enough with the background. i changed colour to stronger contrast and a bright cyan<br>
+<br>
+**Bug8:** Funtional. Hover color was only appearing in the underline<br>
+**Fix:** The issue was caused in the order which the CSS rules were being displayed. To fix the issue I changed the order in style.css and made the initial color inherit<br>
+<br>
+**Bug9:** Funtional. CV link broken<br>
+**Fix:** a earlier update had changed name of file to fit convention, issue was fixed by replacing path with updated valid directory<br>
+
 
 ## Acknowledgments
 * [Google Fonts](https://fonts.google.com)<br>
