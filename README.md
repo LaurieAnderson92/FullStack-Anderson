@@ -99,6 +99,8 @@ in multiple web browsers and inspecting the page. Then changing the width of the
 #### webpages pass the [wave accessability evaluation tool](https://wave.webaim.org/report#/https://laurieanderson92.github.io/FullStack-Anderson/index.html)<br>
 ![sucessful wave valudation](assets/documentation/wave-validation.png)
 <br>
+####  webpages pass the devtools-lighthouse validation
+![sucessful Lighthouse valudation](assets/documentation/lh-validation.png)
 
 ### Bugs & Enhancements:
 I have three different categories of bugs:
