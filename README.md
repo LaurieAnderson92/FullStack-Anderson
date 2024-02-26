@@ -51,7 +51,7 @@ Front and center of all of my pages is the title, this was stylized to look like
 This fulfills user story **1** and **3**, immediately the user knows it is a profile for a person, and the central display of the text 'I Am Your Freelancer' along with the link to the CV makes its obvious what the sites purpose is.
 
 #### Responsiveness
-The website looks good and apropriate on all resolutions and orientations, with the majority of browsing traffic bing via mobile devices, the website started small and then was scaled to bigger screens.
+The website looks good and appropriate on all resolutions and orientations, with the majority of browsing traffic bing via mobile devices, the website started small and then was scaled to bigger screens.
 ![Picture of the Fullstack Anderson site displaying correctly on multiple resolutions](assets/documentation/feat-responsiveness.png)
 
 This fulfills user story **2** and **5**, as the site displays well, and consistently on multiple screens, whether it's a phone screen shown to a recruitment manager, or a large screen in a meeting discussing candidates.
@@ -71,13 +71,7 @@ By using the same bar that flexes around the page I'm able to avoid bulky, dupli
 * Expand on the contact form and link it to an email inbox
 * Expand on the projects with links to them in the portfolio
 * Add visual interest in the divs in 4k resolution
-* Start to better define my commits with clearer and catagorized commits such as 
- * feat:
- * bugfix:
- * BREAKING CHANGE:
- * style:
- * doc:
- * test:
+* Start to better define my commits with clearer and catagorized commits such as: *feat, bugfix, BREAKING CHANGE, style, doc, test*
 
 ## Quality Assurance
 
@@ -154,4 +148,5 @@ I have three different categories of bugs:
 * [Coloring for Colorblindness](https://davidmathlogic.com/) helping me choose a color scheme for each content page that's fully accessable<br>
 * [Favicon IO](https://favicon.io/emoji-favicons/nerd-face) software to make a freeuse favicon<br>
 * [Kim Britnell] (https://www.linkedin.com/in/kimbritnell/) for proof reading and suggesting edits to the text content<br>
-* Kera Cudmore's [guide](https://github.com/kera-cudmore/readme-examples) on making a good README. 
+* Kera Cudmore's [guide](https://github.com/kera-cudmore/readme-examples) on making a good README.
+* [balsamiq ](https://balsamiq.com/) for use creating the wireframes
