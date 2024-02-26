@@ -36,14 +36,35 @@ To deploy this page locally, you can download the files from https://github.com/
 ## Features
 
 ### User Stories:
-* When a user first views the website, they'll want to immediately know what it is.
-* When a user navigates the website, it should be obvious and intuative.
-* If the user wants to find The link to the CV, it should be prominent and obvious.
-* If a user views the github respository to view the quality of the code, it should be well commented and organised.
-* For a user the style should be visually consistent and appealing.
+1. When a user first views the website, they'll want to immediately know what it is.
+2. When a user navigates the website, it should be obvious and intuative.
+3. If the user wants to find The link to the CV, it should be prominent and obvious.
+4. If a user views the github respository to view the quality of the code, it should be well commented and organised.
+5. For a user the style should be visually consistent and appealing.
+6. If the user wants to contact me, they should be able to do so from anywhere.
 
 ### Delivery:
-// List of existing features in the webpage 
+#### Title
+Front and center of all of my pages is the title, this was stylized to look like a social media profile on any resolution following their conventions, such as a cover image and a profile picture.
+![Picture of the title section of the Fullstack Anderson site](assets/documentation/feat-titlescreen.png)
+
+This fulfills user story **1** and **3**, immediately the user knows it is a profile for a person, and the central display of the text 'I Am Your Freelancer' along with the link to the CV makes its obvious what the sites purpose is.
+
+#### Responsiveness
+The website looks good and apropriate on all resolutions and orientations, with the majority of browsing traffic bing via mobile devices, the website started small and then was scaled to bigger screens.
+![Picture of the Fullstack Anderson site displaying correctly on multiple resolutions](assets/documentation/feat-responsiveness.png)
+
+This fulfills user story **2** and **5**, as the site displays well, and consistently on multiple screens, whether it's a phone screen shown to a recruitment manager, or a large screen in a meeting discussing candidates.
+
+#### Color and Narritive Theory
+The hero image in the title tells the immediate story of what the website unique selling point is, accessability for compter users with occur challenges while maintaining a sleek and professional look. the picture blured with the clarioty appearing through the lenses of the glasses immediately sets the tone of the website.
+![Picture of the Fullstack Anderson site's coherient color scheme](assets/documentation/feat-colorscheme.png)
+By sticking with the colorscheme in that picture. The content of the page is immediately tied to that central image and what it represents. I'm also able to deploy a low-background/high-text contrasting dark theme of the website, which is both proven to lower eyestrain on users and is a growing supertrend with most businesses  to incorporate a darkmode of some kind, it is styled along with the branding of the site best highlighting how every aspect of a website can be used as a asset for a business narrative. which fufuls user story **1** and **5**
+
+#### Navigation Bar
+The navigation bar is adaptive, which is a key part of the website design. Contact icons are conventionally along the bottom on mobile pages and in prominent locations in larger resolutions.
+![Picture of the Fullstack Anderson site's adaptive navigation bar](assets/documentation/feat-navbar.png)
+By using the same bar that flexes around the page I'm able to avoid bulky, duplicated code that writes the same code twice and hides one on different resolutions. With the mobile view, the conact portion of the menu sticks to the bottom of the page as is convention for mobile views, and in wider resolutions it exists right under the profile image, which is a convention of social media profiles. This design fulfills user story **4** and **6**
 
 ### Future Features:
 * Diffrent CSS for lightmode/darkmode
